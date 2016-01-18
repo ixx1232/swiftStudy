@@ -26,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1833889A1C4D37590055E013 /* 元组.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "元组.playground"; sourceTree = "<group>"; };
 		18A9939E1C4D1833007B9322 /* swiftStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A993A11C4D1833007B9322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A993A31C4D1833007B9322 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +103,7 @@
 				18A993C31C4D2108007B9322 /* 03-for.playground */,
 				18A993C41C4D2210007B9322 /* 04-String&NSString.playground */,
 				18A993C51C4D2AB7007B9322 /* 05-数组和字典.playground */,
+				1833889A1C4D37590055E013 /* 元组.playground */,
 			);
 			path = swiftStudyTests;
 			sourceTree = "<group>";

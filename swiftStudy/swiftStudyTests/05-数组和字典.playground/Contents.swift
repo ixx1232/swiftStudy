@@ -57,6 +57,8 @@ dict
 dict["age"] = 18
 dict
 
+
+
 // 如果设置同样地 key 会出现什么结果 -> 会替换之前存在的内容
 dict["name"] = "lisi"
 dict
@@ -66,14 +68,15 @@ var dict2 = Dictionary<String, AnyObject>()
 dict2["title"] = "BOSS"
 dict2
 dict2["name"] = "wangwu"
+dict2
 
 // 要合并字典
 for (k, v) in dict2 {
     
-    // updateValue 可以直接更新子弟那中存在的值, 如果不存在会新建
+    // updateValue 可以直接更新字典中存在的值, 如果不存在会新建
     dict.updateValue(v, forKey: k)
 }
-
+dict2
 
 
 //----------------------------------------
