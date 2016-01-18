@@ -74,3 +74,25 @@ for (k, v) in dict2 {
     dict.updateValue(v, forKey: k)
 }
 
+
+
+//----------------------------------------
+
+// 使用方括号[]来创建数组和字典,并使用下标或者键(key)来访问元素
+var shoppingList = ["catfish", "water","tulips", "blue paint"]
+shoppingList[1] = "bottle of water"
+
+var occupations = [
+    "Malcolm":"Captain",
+    "Kaylee":"Mechanic",
+]
+occupations["Jayne"] = "Public Relations"
+
+// 要创建一个空数组或者字典, 使用初始化语法
+let emptyArray = [String]()
+let emptyDictionary = [String: Float]()
+
+// 如果类型信息可以被推断出来,你可以用[]和[:]来创建空数组和空字典 --就像你声明变量或者给函数穿参数的时候一样
+shoppingList = []
+occupations = [:]
+
