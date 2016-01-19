@@ -27,13 +27,15 @@
 
 /* Begin PBXFileReference section */
 		1833889A1C4D37590055E013 /* 元组.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "元组.playground"; sourceTree = "<group>"; };
+		1885B8DB1C4E694600B9336E /* 07-函数.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "07-函数.playground"; sourceTree = "<group>"; };
+		1885B8DC1C4E69F500B9336E /* 函数2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "函数2.playground"; sourceTree = "<group>"; };
 		18A9939E1C4D1833007B9322 /* swiftStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A993A11C4D1833007B9322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A993A31C4D1833007B9322 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18A993A61C4D1833007B9322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18A993A81C4D1833007B9322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A993AB1C4D1833007B9322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		18A993AD1C4D1833007B9322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A993AD1C4D1833007B9322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../swiftStudy/Info.plist; sourceTree = "<group>"; };
 		18A993B21C4D1833007B9322 /* swiftStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A993B61C4D1833007B9322 /* swiftStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftStudyTests.swift; sourceTree = "<group>"; };
 		18A993B81C4D1833007B9322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,7 +90,6 @@
 				18A993A51C4D1833007B9322 /* Main.storyboard */,
 				18A993A81C4D1833007B9322 /* Assets.xcassets */,
 				18A993AA1C4D1833007B9322 /* LaunchScreen.storyboard */,
-				18A993AD1C4D1833007B9322 /* Info.plist */,
 			);
 			path = swiftStudy;
 			sourceTree = "<group>";
@@ -96,6 +97,7 @@
 		18A993B51C4D1833007B9322 /* swiftStudyTests */ = {
 			isa = PBXGroup;
 			children = (
+				18A993AD1C4D1833007B9322 /* Info.plist */,
 				18A993B61C4D1833007B9322 /* swiftStudyTests.swift */,
 				18A993B81C4D1833007B9322 /* Info.plist */,
 				18A993C11C4D1899007B9322 /* 01-常量&变量.playground */,
@@ -104,6 +106,8 @@
 				18A993C41C4D2210007B9322 /* 04-String&NSString.playground */,
 				18A993C51C4D2AB7007B9322 /* 05-数组和字典.playground */,
 				1833889A1C4D37590055E013 /* 元组.playground */,
+				1885B8DB1C4E694600B9336E /* 07-函数.playground */,
+				1885B8DC1C4E69F500B9336E /* 函数2.playground */,
 			);
 			path = swiftStudyTests;
 			sourceTree = "<group>";
